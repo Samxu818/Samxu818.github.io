@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+
+  
+  <title>Project Summary | Shengyi Xu&#39;s blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Applying Unsupervised Machine Learning Method:K-Means to a Real-World Data SetAbstract For some background, in Marketing, it is too limited to use the traditional ways to measure consumers’ demand. In">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Project Summary">
+<meta property="og:url" content="http://yoursite.com/2019/09/02/Project-Summary/index.html">
+<meta property="og:site_name" content="Shengyi Xu&#39;s blog">
+<meta property="og:description" content="Applying Unsupervised Machine Learning Method:K-Means to a Real-World Data SetAbstract For some background, in Marketing, it is too limited to use the traditional ways to measure consumers’ demand. In">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="http://yoursite.com/2019/09/02/Project-Summary/1.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/02/Project-Summary/2.png">
+<meta property="og:updated_time" content="2019-09-02T14:02:43.016Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Project Summary">
+<meta name="twitter:description" content="Applying Unsupervised Machine Learning Method:K-Means to a Real-World Data SetAbstract For some background, in Marketing, it is too limited to use the traditional ways to measure consumers’ demand. In">
+<meta name="twitter:image" content="http://yoursite.com/2019/09/02/Project-Summary/1.png">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+</html>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Shengyi Xu&#39;s blog</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-Project-Summary" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/09/02/Project-Summary/" class="article-date">
+  <time datetime="2019-09-02T12:46:24.000Z" itemprop="datePublished">2019-09-02</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Project Summary
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="Applying-Unsupervised-Machine-Learning-Method-K-Means-to-a-Real-World-Data-Set"><a href="#Applying-Unsupervised-Machine-Learning-Method-K-Means-to-a-Real-World-Data-Set" class="headerlink" title="Applying Unsupervised Machine Learning Method:K-Means to a Real-World Data Set"></a><center>Applying Unsupervised Machine Learning Method:K-Means to a Real-World Data Set</center></h2><p><strong>Abstract</strong></p>
+<p>For some background, in Marketing, it is too limited to use the traditional ways to measure consumers’ demand. Instead, by using Artificial Intelligence (AI) or Machine Language (ML), we can conduct quantitative analysis to derive proper suggestions for marketing strategy management. Here is an obvious example— CloudMusic (NetEase). It is a successful use of the Artificial Intelligence and Machine Language as it collects consumers’ preference of the genre of the music and recommend different music every day. The technology that using AI and ML to analysis consumers’ action has been widely used by virtually every single company on a daily basis. There are two aims of this project. One is to help companies better know their consumers so that they could make decisions more precisely. The other one is to provide use cases for AI and ML in the field of marketing, or business in general. After some research, I decided to apply K-Means model in my study to learn more about consumers from a business point of views. In this case, we are using a real data set containing 100,000 samples from a quick service restaurant (QSR). Each data point has variables regarding their purchase behaviors or the specific items they bought during a recent 12-week window. The data includes the total spend, the type of the foods bought, and the frequency that consumers buy the food and etc. The preparation to run the model contains three steps: first, I convert category variable to integers. Second, I dropped all columns that are derived from the actual purchase data. Finally, I normalize the dataset using a normalization scale since K-Means could only be used for the calculation of integers or floats. </p>
+<p><strong><em>Keywords: k-means, machine learning, clustering</em></strong></p>
+<p><strong>Literature Review</strong></p>
+<p>There are tremendously rich documentations in terms of both the theoretical framework of K-means and how to apply the algorithm. But in the blog posted by Dr. Michael J. Garbade (2018), K-means clustering is one of the simplest and popular unsupervised machine learning algorithms. Despite its complexity at its usage of mathematically mechanisms and many advanced knowledge points from the mathematical field, this algorithm is known for its ease to be interpreted and applied. Beyond the concepts, Dr. Michael (2018) also point on some other key points regarding K-means and its components.</p>
+<p><strong>Cluster.</strong> Each cluster is recognized as data points aggregated together based on their similarity. </p>
+<p><strong>Means.</strong> the average of the different points inside one cluster.</p>
+<p><strong>k.</strong> the k-means has to work with a pre-defined number of centroids (or mean points of the clusters) to kick off. </p>
+<p>There are two key ways to end the iterations of K-means, as its goal is to find the most optimized centroids for each cluster, diminishing the sum of all distances within each cluster. First, if the centroids have stabilized or when there are no movements in the centroids position for each cluster, the K-means clustering has been successful. Second, since the first way can be very time consuming and have margining improvements to the final clustering, the researcher can often set a pre-defined goal of iterations, say we could tell the algorithm to stop at 100 times of iterations, disregard of how optimal the results are. </p>
+<p><strong><em>A concept framework on how k-means works logistically has been provided by kardi (2017). this framework clearly summarizes the points made prior.</em></strong> </p>
+<p><img src="/2019/09/02/Project-Summary/1.png" alt="1.png"></p>
+<p><strong><em>As the oracle data science platform showed as an example of the output of K-means, the drivers can be grouped into 2 groups based on 2 primary features: speeding feature and distance feature.</em></strong></p>
+<p><img src="/2019/09/02/Project-Summary/2.png" alt="1.png"></p>
+<p><strong>Discussion</strong></p>
+<p>Since there are many great sources and the researcher has limited time and effort, those great sources are not going to be either referenced or quoted. But a simple google search can take you places on this topic. It is also worth mentioning that since this model is widely applied in many scientific fields, many programming language community has took it far with the model and added great features to the development of the modeling process and the data cleanse process, so even the research has limited knowledge going into this research, the research has been enriched by the dedication of the developer communities. </p>
+<p><strong>Data Analysis Process</strong></p>
+<p><strong>Collect raw data sample.</strong> The data has been provided by a third-party source. The data contains transactional information of the users for a Quick Service Restaurants [QSR]. It contains 100,000 rows and about 120 features. </p>
+<p><strong>Cleaning the data.</strong> The data has many categorical variables. In order to fit a K-means model, the data has to transformed into normalized numerical values. </p>
+<p><strong>Fit the model.</strong> The python library SKlearn is utilized to conduct the study. The library is open sourced and licensed based on free usage, so reference is not required by the author, however, I would like to recommend to go to their official site to learn more about their work and provide support to their community if you think it is worth. </p>
+<p><strong>Review the results.</strong> After applying and optimizing the K-Means model, I found 5 distinct groups of users: “The VIPs”: they have extremely high frequency and spend in the past 12 weeks, but they seem to be a smaller group. For example, the bagels, except the premium buyers, others almost do not buy, but the VIPs buy about 60. “the premium buyers”: they also have a second highest frequency in the past 12 weeks, but their total spent is much smaller than those VIPs’. VIPs’ spent is about 4 times bigger than the premium buyers. “the ordinary”: This group of people have their regular habits that every 2 or 3days they will go to buy the food. In most situations, they go themselves which explain why for most food, data just show 1 or 2 buying. However, the ordinary people always buy the soft drinks. “the occasional”: The duration is about 11 days, and these people seldom buy food; instead, they go to but the drinks most.</p>
+<p><strong>Conclusion and future improvements:</strong></p>
+<p>for the business I recommended the below actions for each group to achieve better marketing results:</p>
+<ol>
+<li><p>For the “VIPs”: a loyalty program can retain them and provide additional value for their purchases and make them feel at home at every purchase. Logically, they already are our best customers, so the goal is not to incentive them to purchase more; the real goal is to keep them coming and happy. </p>
+</li>
+<li><p>For the premium buyers: it is better to provide them with a more benefit program so that they will continue consumer in the restaurant. The purpose is to make them further love this restaurant and help advertise.</p>
+</li>
+<li><p>Someone should always recommend these group of people that they need to consume as maybe there are some new products which could attract consumers. In other words, these people could also be supposed as the potential consumers, and restaurant should pay more attention to them and collect more information.</p>
+</li>
+<li><p>While, they are also considered as the potential consumers, but restaurants just need to send some messages to them when there are some important events or new products.</p>
+</li>
+<li><p>I think restaurants do not need to pay attention to them as their transactions are too small.</p>
+</li>
+</ol>
+<p>In the future, there are a couple of follow-up tasks we could do:</p>
+<ol>
+<li><p>Apply other unsupervised models to see if there are performance improvements.</p>
+</li>
+<li><p>Track customer cluster change to at least understand if there are changes in our customer base.</p>
+</li>
+</ol>
+<p><strong>References</strong></p>
+<p>/@ledumjg. (2018, September 12). Understanding K-means Clustering in Machine Learning. Retrieved from <a href="https://towardsdatascience.com/understanding-k-means-clustering-in-machine-learning-6a6e67336aa1" target="_blank" rel="noopener">https://towardsdatascience.com/understanding-k-means-clustering-in-machine-learning-6a6e67336aa1</a></p>
+<p>Teknomo, K. (n.d.). Numerical Example of K-Means Clustering. Retrieved from <a href="https://people.revoledu.com/kardi/tutorial/kMean/NumericalExample.htm" target="_blank" rel="noopener">https://people.revoledu.com/kardi/tutorial/kMean/NumericalExample.htm</a></p>
+<p>Trevino, A. (n.d.). Introduction to K-means Clustering. Retrieved from <a href="https://www.datascience.com/blog/k-means-clustering" target="_blank" rel="noopener">https://www.datascience.com/blog/k-means-clustering</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/09/02/Project-Summary/" data-id="ck1h9tkz30001l4wi05wq5b9u" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2019/09/02/About-Me/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          About Me
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/09/">September 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2019/09/02/About-Me/">About Me</a>
+          </li>
+        
+          <li>
+            <a href="/2019/09/02/Project-Summary/">Project Summary</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2019 Shengyi Xu<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
